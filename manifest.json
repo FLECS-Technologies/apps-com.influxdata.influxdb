@@ -1,0 +1,26 @@
+{
+    "app": "com.influxdata.influxdb",
+    "version": "##VERSION##",
+    "revision": "##FLECS_VERSION##",
+    "title": "InfluxDB",
+    "author": "info@flecs.tech",
+    "image": "flecs.azurecr.io/com.influxdata.influxdb",
+    "description": "Manage all types of time series data in a single, purpose-built database. Run at any scale in any environment in the cloud, on-premises, or at the edge.",
+    "avatar": "https://portal.influxdata.com/assets/logo-white-e9efb20083fe304668cc31dc7c9063af1f45e525d5e179bab5d409d8104acba3.png",
+    "category": "database",
+    "multiInstance": false,
+    "editor": ":8086",
+    "args": [],
+    "capabilities": [],
+    "conffiles": [],
+    "devices": [],
+    "env": [],
+    "interactive": false,
+    "ports": [
+        "8086:8086"
+    ],
+    "startupOptions": [],
+    "volumes": [
+        "influxdb:/var/lib/influxdb2"
+    ]
+}
